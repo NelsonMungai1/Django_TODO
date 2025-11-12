@@ -1,6 +1,7 @@
+# configurinf urls to the views within myapp
 from django.urls import path
 from . import views
-
 urlpatterns=[
-    path('',views.home,name='home')
+    path("Test",views.temp,name="Test"),
+    path("home",views.home,name="Home")
 ]
